@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Design by foolishdeveloper.com -->
+  <title>Menu</title>
+  <link rel="icon" href="menu-low-resolution-logo-black-on-transparent-background.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+  <link href="login.css" rel="stylesheet">
+  <style>
+    .he {
+      height: 680px;
+      width: 400px;
+      background-color: rgba(255, 255, 255, 0.13);
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+      border-radius: 10px;
+      backdrop-filter: blur(10px);
+      border: 2px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+      padding: 50px 35px;
+    }
+
+    .background1 {
+      width: 430px;
+      height: 720px;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%;
+    }
+
+    .background1 .shape1 {
+      height: 200px;
+      width: 200px;
+      position: absolute;
+      border-radius: 50%;
+    }
+
+    .shape1:first-child {
+      background: linear-gradient(#b7b7b7,
+          #fff
+          /*#1845ad,
+        #23a2f68*/
+        );
+      left: -80px;
+      top: -80px;
+    }
+
+    .shape1:last-child {
+      background: linear-gradient(to right,
+          #242424,
+          #393939
+          /*#ff512f,
+        #f09819*/
+        );
+      right: -30px;
+      bottom: -80px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="background1">
+    <div class="shape1"></div>
+    <div class="shape1"></div>
+  </div>
+  <form class="he">
+    <h3>Register Here</h3>
+
+    <label for="username">First Name</label>
+    <input type="text" placeholder="First Name" id="firstname">
+
+    <label for="username">Last Name</label>
+    <input type="text" placeholder="Last Name" id="lastname">
+
+    <label for="username">Phone Number</label>
+    <input type="text" placeholder="+918867155366" id="number">
+
+    <label for="password">Password</label>
+    <input type="password" placeholder="Password" id="password">
+
+    <button>Register</button>
+    <p>Already have account?&nbsp;&nbsp;<span><a href="login.html">LOGIN NOW</a></span></p>
+    <!--
+    <div class="social">
+      <div class="go"><i class="fab fa-google"></i> Google</div>
+      <div class="fb"><i class="fab fa-facebook"></i> Facebook</div>
+    </div>
+
+  -->
+  </form>
+</body>
+
+</html>
